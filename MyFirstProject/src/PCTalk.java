@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class PCTalk {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Qual eh o seu nome, mizeravi??");
+		String name = scanner.nextLine();
+		System.out.println("E a tua idade? Num mente naum viu kkk");
+		int age = scanner.nextInt();
+		scanner.nextLine();
+		System.out.println("E a tua comida favorita eh o que msm?");
+		String food = scanner.nextLine();
+		
+		System.out.println("Teu nome eh " + name + "? Nome fei da zorra");
+		System.out.println("E tu tem " + age + " anos jah? Caraio ta veio hein bixo");
+		System.out.println("Tu gosta msm desse tal de " +food + "? Mto estranho, mas cada um c seus problemas neh");
+		
+
+	}
+
+}
