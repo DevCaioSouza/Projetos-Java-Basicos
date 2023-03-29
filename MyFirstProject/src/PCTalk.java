@@ -14,9 +14,9 @@ public class PCTalk {
 		System.out.println("E a tua comida favorita eh o que msm?");
 		String food = scanner.nextLine();
 		
-		System.out.println("Teu nome eh " + name + "? Nome fei da zorra");
+		System.out.println("Teu nome eh " + name + "? Ok, \"sr " + name + "\" kkk");
 		System.out.println("E tu tem " + age + " anos jah? Caraio ta veio hein bixo");
-		System.out.println("Tu gosta msm desse tal de " +food + "? Mto estranho, mas cada um c seus problemas neh");
+		System.out.println(food + " eh bom mesmo viu");
 		
 
 	}
